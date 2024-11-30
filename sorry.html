@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sorry.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cairo:wght@200..1000&family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <title>Sorry💖</title>
+</head>
+
+<body>
+    <div class="container">
+        <input id="up" type="checkbox" unchecked>
+        <label class="up" for="up">
+            <div class="valentines">
+            
+                <div class="envelope"></div>
+                <div class="front"></div>
+                <div class="card">
+                    <div class="text">Hey</br>Youssra</br>I'm Sorry<br>I Love You</div>
+                    <div class="heart"</div>
+                </div>
+                <div class="hearts">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                    <div class="four"></div>
+                    <div class="five"></div>
+                </div>
+            </div>
+        </div>
+        </label>
+            
+        
+    
+        <div class="shadow"></div>
+        
+    </div>
+    <div class="next hidden">
+        <a href="letter.html">Mazal Masalina A Zeen</a>
+      <span>&rarr;</span>
+      </div>
+    <script>
+        const checkbox = document.getElementById('up');
+        const card = document.querySelector('.card');
+        const lien = document.querySelector('.next');
+    
+        checkbox.addEventListener('change', () => {
+          if (checkbox.checked) {
+            card.style.top = '-90px';
+          } else {
+            card.style.top = '0';
+          }
+        }
+        )
+        document.getElementById('up').addEventListener('change', function() {
+        const lien = document.querySelector('.next');
+    if (this.checked) {
+        lien.classList.remove('hidden');
+    } else {
+        lien.classList.add('hidden');
+    }
+});
+;
+      </script>
+      
+</body>
+
+</html>
